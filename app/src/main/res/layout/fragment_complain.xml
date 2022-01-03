@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="40dp"
+    tools:context=".Users.Client.ComplainFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="15dp">
+
+        <Button
+            android:id="@+id/client_complain_return"
+            android:layout_width="15dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/flesh" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Contact Us"
+            android:textSize="25sp" />
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="How can we help you ?" />
+
+
+    <EditText
+        android:id="@+id/complainSubject"
+        android:layout_width="302dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/input_long"
+        android:hint="Subject"
+        android:inputType="text"
+        android:paddingStart="20dp"
+        android:autoSizeTextType="uniform"
+        android:paddingEnd="20dp"
+        android:textColorHint="@color/whitecolor"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/complainMessage"
+        android:autoSizeTextType="uniform"
+        android:layout_width="302dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_weight="2"
+        android:background="@drawable/input_long"
+        android:gravity="start"
+        android:hint="Your message .."
+        android:inputType="textMultiLine"
+        android:padding="20dp"
+        android:textColorHint="@color/whitecolor"
+        android:textSize="12sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Rate us"
+        android:textSize="12sp" />
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:isIndicator="false"
+        android:numStars="7"
+        android:progressTint="@color/yellow"
+        android:rating="2"
+        android:scaleX="0.7"
+        android:scaleY="0.7"
+        android:stepSize="1" />
+
+
+    <Button
+        android:id="@+id/sendComplainButton"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_shape"
+        android:text="Send" />
+
+
+</LinearLayout>

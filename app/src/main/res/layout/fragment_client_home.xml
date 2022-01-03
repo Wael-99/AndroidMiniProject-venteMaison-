@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.app.dabshi_test_graphic.Users.Client.ClientHomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="15dp">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="3dp"
+            android:transitionName="Logo"
+            app:srcCompat="@drawable/darilogo" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
+
+
+
+
+        <ImageButton
+            android:id="@+id/filterIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/ic_filter_icon"
+            android:clickable="true"
+            android:layout_marginLeft="300dp" />
+
+
+    </LinearLayout>
+
+    <com.google.android.material.chip.ChipGroup
+        android:id="@+id/chipGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layoutAnimation="@anim/translate"
+        android:visibility="gone"
+        app:singleLine="true"
+        app:singleSelection="true">
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/priceChip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checkable="true"
+            android:text="Price"
+            android:textSize="12sp"
+            app:checkedIconVisible="false"
+            app:chipBackgroundColor="@color/yellow" />
+
+        <com.google.android.material.chip.Chip
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checkable="true"
+            android:text="Most recent"
+            android:textSize="12sp"
+            app:checkedIconVisible="false"
+            app:chipBackgroundColor="@color/yellow" />
+
+        <com.google.android.material.chip.Chip
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/yellow"
+            android:checkable="true"
+            android:text="Rooms"
+            android:textSize="12sp"
+            app:checkedIconVisible="false"
+            app:chipBackgroundColor="@color/yellow"
+            app:rippleColor="@color/yellow" />
+
+        <com.google.android.material.chip.Chip
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checkable="true"
+            android:text="City"
+            android:textSize="12sp"
+            app:checkedIconVisible="false"
+            app:chipBackgroundColor="@color/yellow" />
+    </com.google.android.material.chip.ChipGroup>
+
+
+    <LinearLayout
+        android:id="@+id/priceView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:visibility="gone">
+
+        <com.google.android.material.slider.RangeSlider
+            android:id="@+id/priceSlider"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stepSize="10"
+            android:valueFrom="50"
+            android:valueTo="1500"
+            app:haloColor="#79E8D391"
+            app:labelBehavior="gone"
+            app:labelStyle="@style/Widget.MaterialComponents.Tooltip"
+            app:thumbColor="#FFFFFF"
+            app:thumbStrokeColor="@color/yellow"
+            app:thumbStrokeWidth="7dp"
+            app:tickVisible="false"
+            app:trackColorActive="@color/yellow"
+            app:trackHeight="2dp"
+            app:values="@array/initial_slider_values" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/minPriceHold"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="100dp"
+                android:layout_weight="1"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/input_long"
+                android:focusable="false"
+                android:gravity="center"
+                android:hint="Min"
+                android:inputType="number"
+                android:padding="7dp" />
+
+            <EditText
+                android:id="@+id/maxPriceHold"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/input_long"
+                android:focusable="false"
+                android:gravity="center"
+                android:hint="Max"
+                android:inputType="number"
+                android:padding="7dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@drawable/shape"
+        android:elevation="5dp"
+        android:orientation="horizontal"
+        android:paddingStart="30dp"
+        android:paddingEnd="0dp"
+        android:visibility="gone">
+
+        <RadioButton
+            android:id="@+id/s0"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="+0" />
+
+        <RadioButton
+            android:id="@+id/s1"
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="+1" />
+
+        <RadioButton
+            android:id="@+id/s2"
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="+2" />
+
+        <RadioButton
+            android:id="@+id/s3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="+3" />
+
+
+    </RadioGroup>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/client_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:descendantFocusability="beforeDescendants"
+        android:layoutAnimation="@anim/translate" />
+</LinearLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "965024247728",
+    "project_id": "rento-test-graphic",
+    "storage_bucket": "rento-test-graphic.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:965024247728:android:25d09ef6149e889a49f075",
+        "android_client_info": {
+          "package_name": "com.app.dabshi_test_graphic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "965024247728-v85tlbmgevo4g02avvhvpta0qp7q5cnh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC401eiW-JtxNbde_erbXl4R73u0pMeCfE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "965024247728-v85tlbmgevo4g02avvhvpta0qp7q5cnh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

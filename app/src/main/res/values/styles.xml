@@ -1,0 +1,12 @@
+<resources>
+
+    <style name="Widget.Theme.Rento_test_graphic.ActionBar.Fullscreen" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/accentcolor</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowContentTransitions">true</item>
+
+    </style>
+
+
+</resources>

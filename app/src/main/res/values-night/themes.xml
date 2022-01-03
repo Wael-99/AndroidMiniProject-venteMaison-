@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Rento_test_graphic" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimaryVariant">@color/yellow</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/yellow</item>
+        <item name="colorSecondaryVariant">@color/whitecolor</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:windowContentTransitions">true</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="ThemeOverlay.Rento_test_graphic.FullscreenContainer" parent="">
+        <item name="fullscreenBackgroundColor">@color/accentcolor</item>
+        <item name="fullscreenTextColor">@color/white</item>
+        <item name="android:windowContentTransitions">true</item>
+
+    </style>
+</resources>

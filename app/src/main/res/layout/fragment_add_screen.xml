@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Users.Owner.OwnerAddScreen">
+
+
+
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:paddingBottom="40dp"
+        android:paddingTop="40dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoSizeTextType="uniform"
+            android:text="Title"
+
+            android:textSize="20sp" />
+
+        <EditText
+            android:maxLength="50"
+            android:id="@+id/property_add_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Post title"
+            android:inputType="textShortMessage"
+            android:paddingBottom="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rooms"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/property_add_room"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="rooms number"
+            android:inputType="number"
+            android:paddingBottom="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Location"
+            android:textSize="20sp" />
+
+
+        <Spinner
+            style="@style/Widget.AppCompat.Spinner.DropDown"
+            android:id="@+id/property_add_location"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:dropDownWidth="wrap_content"
+            android:drawSelectorOnTop="true"
+            android:entries="@array/location_array"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Price"
+            android:textSize="20sp" />
+
+        <EditText
+            android:maxLength="5"
+            android:id="@+id/property_add_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Post title"
+            android:inputType="number"
+            android:paddingBottom="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/property_add_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxHeight="100dp"
+            android:hint="about property"
+            android:inputType="textMultiLine"
+            android:gravity="start"
+            android:maxLength="200"
+            android:paddingBottom="15dp" />
+
+        <TextView
+            android:id="@+id/property_add_picture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/add_picture"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/imageName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:visibility="gone"
+             />
+
+        <ProgressBar
+            android:id="@+id/addProgressBar"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:indeterminateTint="@color/lightcolor"
+            android:visibility="gone" />
+
+<!--        <androidx.recyclerview.widget.RecyclerView-->
+<!--            android:id="@+id/list_add_picture"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="40dp"-->
+<!--            android:layout_marginTop="10dp" />-->
+
+        <Button
+            android:id="@+id/add_property_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:background="@drawable/button_dark"
+            android:text="Add"
+
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>

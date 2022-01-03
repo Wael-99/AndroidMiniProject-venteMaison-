@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ASUS/Desktop/RentoApp-main/app/src/main/res/drawable/header_bg.xml" value="0.2703125" />
+        <entry key="..\:/Users/ASUS/Desktop/RentoApp-main/app/src/main/res/layout/activity_actif_post.xml" value="0.23278985507246377" />
+        <entry key="..\:/Users/ASUS/Desktop/RentoApp-main/app/src/main/res/layout/activity_admin_home.xml" value="0.23278985507246377" />
+        <entry key="..\:/Users/ASUS/Desktop/RentoApp-main/app/src/main/res/layout/activity_client_main.xml" value="0.23278985507246377" />
+        <entry key="..\:/Users/ASUS/Desktop/RentoApp-main/app/src/main/res/layout/activity_login.xml" value="0.23278985507246377" />
+        <entry key="..\:/Users/ASUS/Desktop/RentoApp-main/app/src/main/res/layout/activity_owner_main.xml" value="0.23278985507246377" />
+        <entry key="..\:/Users/ASUS/Desktop/RentoApp-main/app/src/main/res/layout/activity_signup.xml" value="0.24592391304347827" />
+        <entry key="..\:/Users/ASUS/Desktop/RentoApp-main/app/src/main/res/layout/activity_splash_screen.xml" value="0.23278985507246377" />
+        <entry key="..\:/Users/ASUS/Desktop/RentoApp-main/app/src/main/res/layout/fragment_client_profil.xml" value="0.16041666666666668" />
+        <entry key="..\:/Users/ASUS/Desktop/RentoApp-main/app/src/main/res/layout/fragment_owner_profil.xml" value="0.24592391304347827" />
+        <entry key="..\:/Users/ASUS/Desktop/RentoApp-main/app/src/main/res/layout/logindabshi.xml" value="0.23278985507246377" />
+        <entry key="..\:/Users/ASUS/Desktop/RentoApp-main/app/src/main/res/layout/row_actif_post.xml" value="0.24592391304347827" />
+        <entry key="..\:/Users/ASUS/Desktop/RentoApp-main/app/src/main/res/layout/row_owner_property.xml" value="0.24592391304347827" />
+        <entry key="..\:/Users/ASUS/StudioProjects/dabshi/app/src/main/res/drawable/ic_baseline_add_circle_24.xml" value="0.2703125" />
+        <entry key="..\:/Users/ASUS/StudioProjects/dabshi/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.2703125" />
+        <entry key="..\:/Users/ASUS/StudioProjects/dabshi/app/src/main/res/drawable/ic_home.xml" value="0.2703125" />
+        <entry key="..\:/Users/ASUS/StudioProjects/dabshi/app/src/main/res/drawable/ic_messages.xml" value="0.2703125" />
+        <entry key="..\:/Users/ASUS/StudioProjects/dabshi/app/src/main/res/drawable/shape.xml" value="0.2703125" />
+        <entry key="..\:/Users/ASUS/StudioProjects/dabshi/app/src/main/res/layout/activity_client_main.xml" value="0.1" />
+        <entry key="..\:/Users/ASUS/StudioProjects/dabshi/app/src/main/res/layout/activity_complaint.xml" value="0.16614583333333333" />
+        <entry key="..\:/Users/ASUS/StudioProjects/dabshi/app/src/main/res/layout/activity_login.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ASUS/StudioProjects/dabshi/app/src/main/res/layout/activity_main.xml" value="0.16614583333333333" />
+        <entry key="..\:/Users/ASUS/StudioProjects/dabshi/app/src/main/res/layout/activity_manage_client.xml" value="0.16614583333333333" />
+        <entry key="..\:/Users/ASUS/StudioProjects/dabshi/app/src/main/res/layout/activity_owner_main.xml" value="0.16614583333333333" />
+        <entry key="..\:/Users/ASUS/StudioProjects/dabshi/app/src/main/res/layout/activity_owner_single_property.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ASUS/StudioProjects/dabshi/app/src/main/res/layout/activity_pending_post.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ASUS/StudioProjects/dabshi/app/src/main/res/layout/activity_signup.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ASUS/StudioProjects/dabshi/app/src/main/res/layout/activity_single_property.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ASUS/StudioProjects/dabshi/app/src/main/res/layout/activity_splash_screen.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ASUS/StudioProjects/dabshi/app/src/main/res/layout/fragment_add_screen.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ASUS/StudioProjects/dabshi/app/src/main/res/layout/fragment_client_home.xml" value="0.264" />
+        <entry key="..\:/Users/ASUS/StudioProjects/dabshi/app/src/main/res/layout/fragment_client_profil.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ASUS/StudioProjects/dabshi/app/src/main/res/layout/fragment_complain.xml" value="0.264" />
+        <entry key="..\:/Users/ASUS/StudioProjects/dabshi/app/src/main/res/layout/fragment_edit_post.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ASUS/StudioProjects/dabshi/app/src/main/res/layout/fragment_home_screen.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ASUS/StudioProjects/dabshi/app/src/main/res/layout/fragment_owner_profil.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ASUS/StudioProjects/dabshi/app/src/main/res/layout/logindabshi.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ASUS/StudioProjects/dabshi/app/src/main/res/layout/row_actif_post.xml" value="0.4" />
+        <entry key="..\:/Users/ASUS/StudioProjects/dabshi/app/src/main/res/layout/row_client_property.xml" value="0.264" />
+        <entry key="..\:/Users/ASUS/StudioProjects/dabshi/app/src/main/res/layout/row_complaint.xml" value="0.1" />
+        <entry key="..\:/Users/ASUS/StudioProjects/dabshi/app/src/main/res/layout/row_manage_users.xml" value="0.1" />
+        <entry key="..\:/Users/ASUS/StudioProjects/dabshi/app/src/main/res/layout/row_owner_property.xml" value="0.4" />
+        <entry key="..\:/Users/ASUS/StudioProjects/dabshi/app/src/main/res/layout/row_pending_post.xml" value="0.264" />
+        <entry key="..\:/Users/MSI/AndroidStudioProjects/dabshi/app/src/main/res/layout/activity_manage_client.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/MSI/AndroidStudioProjects/dabshi/app/src/main/res/layout/activity_manage_owner.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/MSI/AndroidStudioProjects/dabshi/app/src/main/res/layout/activity_owner_main.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/MSI/AndroidStudioProjects/dabshi/app/src/main/res/layout/activity_owner_single_property.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/MSI/AndroidStudioProjects/dabshi/app/src/main/res/layout/activity_pending_post.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/MSI/AndroidStudioProjects/dabshi/app/src/main/res/layout/activity_signup.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/MSI/AndroidStudioProjects/dabshi/app/src/main/res/layout/activity_splash_screen.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/MSI/AndroidStudioProjects/dabshi/app/src/main/res/layout/fragment_add_screen.xml" value="0.264" />
+        <entry key="..\:/Users/MSI/AndroidStudioProjects/dabshi/app/src/main/res/layout/fragment_client_home.xml" value="0.4" />
+        <entry key="..\:/Users/MSI/AndroidStudioProjects/dabshi/app/src/main/res/layout/fragment_client_profil.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/MSI/AndroidStudioProjects/dabshi/app/src/main/res/layout/fragment_complain.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/MSI/AndroidStudioProjects/dabshi/app/src/main/res/layout/fragment_edit_post.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/MSI/AndroidStudioProjects/dabshi/app/src/main/res/layout/fragment_home_screen.xml" value="0.20471014492753623" />
+        <entry key="..\:/Users/MSI/AndroidStudioProjects/dabshi/app/src/main/res/layout/fragment_owner_profil.xml" value="0.264" />
+        <entry key="..\:/Users/MSI/AndroidStudioProjects/dabshi/app/src/main/res/layout/row_actif_post.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/MSI/AndroidStudioProjects/dabshi/app/src/main/res/layout/row_client_property.xml" value="0.4" />
+        <entry key="..\:/Users/MSI/AndroidStudioProjects/dabshi/app/src/main/res/layout/row_manage_users.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/MSI/AndroidStudioProjects/dabshi/app/src/main/res/layout/row_owner_property.xml" value="0.4" />
+        <entry key="..\:/Users/MSI/AndroidStudioProjects/dabshi/app/src/main/res/layout/row_pending_post.xml" value="0.264" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
